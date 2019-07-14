@@ -1,19 +1,39 @@
-body {
-    display: flex;
-    min-height: 100vh;
-    flex-direction: column;
+   body {
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+        }
+      main {
+        flex: 1 0 auto;
+      }
+
+      nav{
+        position: fixed;
+        z-index: 2;
+      }
+     
+
+
+      /* Hover effect */
+      .right a:hover {
+          background-color: white;
+          color:black
+        }
+
+      .parallax-container .parallax {
+          position: relative;
+          width:100%;
+          height: 300px;
+          top: 0;
+          left: 0;
+          right: 0;
+          bottom: 0;
+          z-index: -1;
 }
 
-main {
-    flex: 1 0 auto;
-}
+       /* .parallax-container{position:relative;overflow:scroll;height:500px}
+       .parallax-container.parallax {position:absolute;top:0;left:0;right:0;bottom:0;z-index:-1}
+       
+       .parallax-container .parallax img{opacity:0;position:relative;left:50%;bottom:0;min-width:100%;min-height:100%;-webkit-transform:translate3d(0, 0, 0);transform:translate3d(0, 0, 0);-webkit-transform:translateX(-50%);transform:translateX(-50%)} */
 
-/* Hover effect */
-.right a:hover {
-background-color: white;
-color:black
-}
 
-.background {
-    background-image: url("/Users/droptime24/development/david-portfolio/assets/images/background.jpg")
-}
