@@ -2,11 +2,10 @@ $("document").ready(function () {
     $(".button-collapse").sideNav();
     $('.carousel').carousel();
     $('.parallax').parallax();
-});
-
-$('.carousel.carousel-slider').carousel({
-    fullWidth: true,
-    indicators: true
+    $('.carousel.carousel-slider').carousel({
+        fullWidth: true,
+        indicators: true
+    });
 });
 
 
