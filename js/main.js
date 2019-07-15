@@ -4,7 +4,15 @@ $("document").ready(function () {
     $('.carousel').carousel();
     $('.parallax').parallax();
     $('.modal').modal();
+    $('.fixed-action-btn').floatingActionButton();
 });
+
+
+$('.carousel.carousel-slider').carousel({
+    fullWidth: true
+});
+
+
 
 
 
