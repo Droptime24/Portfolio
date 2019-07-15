@@ -22,7 +22,7 @@
 .parallax-container {
   position: relative;
   overflow: hidden;
-  height: 500px;
+  height: 400px;
   padding: 50px;
   margin: auto;
 }
@@ -33,7 +33,7 @@
   left: 0;
   right: 0;
   bottom: 0;
-  z-index: -3;
+  z-index: -1;
 }
 
 .parallax-container .parallax img {
@@ -49,21 +49,24 @@
           transform: translateX(-50%);
 }
 
-.about-me {
-  /* text-transform: bold; */
-  animation-name: zoomInUp;
-  animation-duration: 3s;
-  animation-delay: 2s;
+
+
+/* .about-me {
+  text-transform: bold;
+  animation-name: zoomInUp, lightSpeedOut;
+  animation-duration: 3s,0s;
+  animation-delay: 2s,10s;
   animation-fill-mode: backwards, forwards;
   z-index: -1;
 }
 
 #animateOne {
-  animation-duration: 3s;
-  animation-delay: 2s;
-  animation-name: zoomOutDown;
+  animation-duration: 3s 2s;
+  animation-delay: 2s 10s;
+  animation-name: zoomOutDown,lightSpeedOut;
   animation-fill-mode: backwards, forwards;
-}
+  
+} */
 
 
 
