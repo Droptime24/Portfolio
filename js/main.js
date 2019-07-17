@@ -5,6 +5,8 @@ $("document").ready(function () {
     $('.parallax').parallax();
     $('.modal').modal();
     $('.fixed-action-btn').floatingActionButton();
+    $('.tap-target').tapTarget(open);
+    
 });
 
 
