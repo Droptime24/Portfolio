@@ -4,7 +4,7 @@ $("document").ready(function () {
     $('.carousel').carousel();
     $('.parallax').parallax();
     $('.modal').modal();
-    $('.fixed-action-btn').floatingActionButton(direction, right);
+    $('.fixed-action-btn').floatingActionButton();
     $('.tap-target').tapTarget(open);
     
 });
